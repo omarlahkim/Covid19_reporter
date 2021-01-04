@@ -1,0 +1,393 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.econostic.alertecovid"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="28" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/mac/Desktop/Cov19/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/mac/Desktop/Cov19/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/mac/Desktop/Cov19/android/app/src/main/AndroidManifest.xml:3:5-67
+12-->/Users/mac/Desktop/Cov19/android/app/src/main/AndroidManifest.xml:3:22-64
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->/Users/mac/Desktop/Cov19/android/app/src/main/AndroidManifest.xml:4:5-65
+13-->/Users/mac/Desktop/Cov19/android/app/src/main/AndroidManifest.xml:4:22-62
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->/Users/mac/Desktop/Cov19/android/app/src/main/AndroidManifest.xml:5:5-80
+14-->/Users/mac/Desktop/Cov19/android/app/src/main/AndroidManifest.xml:5:22-78
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->/Users/mac/Desktop/Cov19/android/app/src/main/AndroidManifest.xml:6:5-79
+15-->/Users/mac/Desktop/Cov19/android/app/src/main/AndroidManifest.xml:6:22-76
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->/Users/mac/Desktop/Cov19/android/app/src/main/AndroidManifest.xml:7:5-79
+16-->/Users/mac/Desktop/Cov19/android/app/src/main/AndroidManifest.xml:7:22-77
+17    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+17-->/Users/mac/Desktop/Cov19/android/app/src/main/AndroidManifest.xml:8:5-98
+17-->/Users/mac/Desktop/Cov19/android/app/src/main/AndroidManifest.xml:8:22-95
+18    <uses-permission android:name="android.permission.WAKE_LOCK" />
+18-->[:@react-native-firebase_auth] /Users/mac/Desktop/Cov19/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-68
+18-->[:@react-native-firebase_auth] /Users/mac/Desktop/Cov19/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:22-65
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+19-->[:@react-native-firebase_auth] /Users/mac/Desktop/Cov19/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-79
+19-->[:@react-native-firebase_auth] /Users/mac/Desktop/Cov19/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:22-76
+20    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+20-->[:react-native-maps] /Users/mac/Desktop/Cov19/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-81
+20-->[:react-native-maps] /Users/mac/Desktop/Cov19/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:22-78
+21
+22    <uses-feature
+22-->[com.google.android.gms:play-services-maps:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/dc60625156faa7b068813befd16b18da/play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+23        android:glEsVersion="0x00020000"
+23-->[com.google.android.gms:play-services-maps:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/dc60625156faa7b068813befd16b18da/play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+24        android:required="true" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+24-->[com.google.android.gms:play-services-maps:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/dc60625156faa7b068813befd16b18da/play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+25    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+25-->[com.google.firebase:firebase-iid:19.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/221e381b1d26a6e41986d1ac60e62530/firebase-iid-19.0.0/AndroidManifest.xml:26:5-82
+25-->[com.google.firebase:firebase-iid:19.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/221e381b1d26a6e41986d1ac60e62530/firebase-iid-19.0.0/AndroidManifest.xml:26:22-79
+26    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+26-->[com.google.android.gms:play-services-measurement:17.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/7b9a2819f1b515acf57bd28cb6fde76e/play-services-measurement-17.0.1/AndroidManifest.xml:26:5-110
+26-->[com.google.android.gms:play-services-measurement:17.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/7b9a2819f1b515acf57bd28cb6fde76e/play-services-measurement-17.0.1/AndroidManifest.xml:26:22-107
+27
+28    <application
+28-->/Users/mac/Desktop/Cov19/android/app/src/main/AndroidManifest.xml:9:5-48:19
+29        android:name="com.econostic.alertecovid.MainApplication"
+29-->/Users/mac/Desktop/Cov19/android/app/src/main/AndroidManifest.xml:10:7-38
+30        android:allowBackup="false"
+30-->/Users/mac/Desktop/Cov19/android/app/src/main/AndroidManifest.xml:14:7-34
+31        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+31-->[androidx.core:core:1.1.0-rc01] /Users/mac/.gradle/caches/transforms-2/files-2.1/a2b399a8f8d8374df6703925e3435da0/core-1.1.0-rc01/AndroidManifest.xml:24:18-86
+32        android:debuggable="true"
+33        android:icon="@mipmap/ic_launcher"
+33-->/Users/mac/Desktop/Cov19/android/app/src/main/AndroidManifest.xml:12:7-41
+34        android:label="@string/app_name"
+34-->/Users/mac/Desktop/Cov19/android/app/src/main/AndroidManifest.xml:11:7-39
+35        android:roundIcon="@mipmap/ic_launcher_round"
+35-->/Users/mac/Desktop/Cov19/android/app/src/main/AndroidManifest.xml:13:7-52
+36        android:supportsRtl="true"
+36-->[com.facebook.android:facebook-android-sdk:5.15.3] /Users/mac/.gradle/caches/transforms-2/files-2.1/d79ed52eab63707cbf5a7c05453d8e51/facebook-android-sdk-5.15.3/AndroidManifest.xml:28:18-44
+37        android:testOnly="true"
+38        android:theme="@style/AppTheme"
+38-->/Users/mac/Desktop/Cov19/android/app/src/main/AndroidManifest.xml:15:7-38
+39        android:usesCleartextTraffic="true" >
+39-->/Users/mac/Desktop/Cov19/android/app/src/debug/AndroidManifest.xml:7:18-53
+40        <meta-data
+40-->/Users/mac/Desktop/Cov19/android/app/src/main/AndroidManifest.xml:17:9-18:54
+41            android:name="com.facebook.sdk.ApplicationId"
+41-->/Users/mac/Desktop/Cov19/android/app/src/main/AndroidManifest.xml:17:20-65
+42            android:value="@string/facebook_app_id" />
+42-->/Users/mac/Desktop/Cov19/android/app/src/main/AndroidManifest.xml:18:13-52
+43        <meta-data
+43-->/Users/mac/Desktop/Cov19/android/app/src/main/AndroidManifest.xml:19:9-20:66
+44            android:name="com.google.android.geo.API_KEY"
+44-->/Users/mac/Desktop/Cov19/android/app/src/main/AndroidManifest.xml:19:20-65
+45            android:value="AIzaSyAhheA5xqp0qncSWgbY-e7E60n8qKcnvdQ" />
+45-->/Users/mac/Desktop/Cov19/android/app/src/main/AndroidManifest.xml:20:9-64
+46
+47        <uses-library
+47-->/Users/mac/Desktop/Cov19/android/app/src/main/AndroidManifest.xml:21:9-87
+48            android:name="org.apache.http.legacy"
+48-->/Users/mac/Desktop/Cov19/android/app/src/main/AndroidManifest.xml:21:23-60
+49            android:required="false" />
+49-->/Users/mac/Desktop/Cov19/android/app/src/main/AndroidManifest.xml:21:61-85
+50
+51        <activity
+51-->/Users/mac/Desktop/Cov19/android/app/src/main/AndroidManifest.xml:22:9-25:48
+52            android:name="com.facebook.FacebookActivity"
+52-->/Users/mac/Desktop/Cov19/android/app/src/main/AndroidManifest.xml:22:19-63
+53            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+53-->/Users/mac/Desktop/Cov19/android/app/src/main/AndroidManifest.xml:23:13-113
+54            android:label="@string/app_name"
+54-->/Users/mac/Desktop/Cov19/android/app/src/main/AndroidManifest.xml:25:13-45
+55            android:theme="@style/com_facebook_activity_theme" />
+55-->[com.facebook.android:facebook-common:5.15.3] /Users/mac/.gradle/caches/transforms-2/files-2.1/f9f107ab6ecf3fd28a98cc852181860e/jetified-facebook-common-5.15.3/AndroidManifest.xml:33:13-63
+56        <activity
+56-->/Users/mac/Desktop/Cov19/android/app/src/main/AndroidManifest.xml:26:9-35:20
+57            android:name="com.facebook.CustomTabActivity"
+57-->/Users/mac/Desktop/Cov19/android/app/src/main/AndroidManifest.xml:27:13-58
+58            android:exported="true" >
+58-->/Users/mac/Desktop/Cov19/android/app/src/main/AndroidManifest.xml:28:13-36
+59            <intent-filter>
+59-->/Users/mac/Desktop/Cov19/android/app/src/main/AndroidManifest.xml:29:13-34:29
+60                <action android:name="android.intent.action.VIEW" />
+60-->/Users/mac/Desktop/Cov19/android/app/src/main/AndroidManifest.xml:30:17-69
+60-->/Users/mac/Desktop/Cov19/android/app/src/main/AndroidManifest.xml:30:25-66
+61
+62                <category android:name="android.intent.category.DEFAULT" />
+62-->/Users/mac/Desktop/Cov19/android/app/src/main/AndroidManifest.xml:31:17-76
+62-->/Users/mac/Desktop/Cov19/android/app/src/main/AndroidManifest.xml:31:27-73
+63                <category android:name="android.intent.category.BROWSABLE" />
+63-->/Users/mac/Desktop/Cov19/android/app/src/main/AndroidManifest.xml:32:17-78
+63-->/Users/mac/Desktop/Cov19/android/app/src/main/AndroidManifest.xml:32:27-75
+64
+65                <data android:scheme="@string/fb_login_protocol_scheme" />
+65-->/Users/mac/Desktop/Cov19/android/app/src/main/AndroidManifest.xml:33:17-75
+65-->/Users/mac/Desktop/Cov19/android/app/src/main/AndroidManifest.xml:33:23-72
+66            </intent-filter>
+67            <intent-filter>
+67-->[com.facebook.android:facebook-common:5.15.3] /Users/mac/.gradle/caches/transforms-2/files-2.1/f9f107ab6ecf3fd28a98cc852181860e/jetified-facebook-common-5.15.3/AndroidManifest.xml:39:13-48:29
+68                <action android:name="android.intent.action.VIEW" />
+68-->/Users/mac/Desktop/Cov19/android/app/src/main/AndroidManifest.xml:30:17-69
+68-->/Users/mac/Desktop/Cov19/android/app/src/main/AndroidManifest.xml:30:25-66
+69
+70                <category android:name="android.intent.category.DEFAULT" />
+70-->/Users/mac/Desktop/Cov19/android/app/src/main/AndroidManifest.xml:31:17-76
+70-->/Users/mac/Desktop/Cov19/android/app/src/main/AndroidManifest.xml:31:27-73
+71                <category android:name="android.intent.category.BROWSABLE" />
+71-->/Users/mac/Desktop/Cov19/android/app/src/main/AndroidManifest.xml:32:17-78
+71-->/Users/mac/Desktop/Cov19/android/app/src/main/AndroidManifest.xml:32:27-75
+72
+73                <data
+73-->/Users/mac/Desktop/Cov19/android/app/src/main/AndroidManifest.xml:33:17-75
+74                    android:host="cct.com.econostic.alertecovid"
+75                    android:scheme="fbconnect" />
+75-->/Users/mac/Desktop/Cov19/android/app/src/main/AndroidManifest.xml:33:23-72
+76            </intent-filter>
+77        </activity>
+78        <activity
+78-->/Users/mac/Desktop/Cov19/android/app/src/main/AndroidManifest.xml:37:7-46:18
+79            android:name="com.econostic.alertecovid.MainActivity"
+79-->/Users/mac/Desktop/Cov19/android/app/src/main/AndroidManifest.xml:38:9-37
+80            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+80-->/Users/mac/Desktop/Cov19/android/app/src/main/AndroidManifest.xml:40:9-79
+81            android:label="@string/app_name"
+81-->/Users/mac/Desktop/Cov19/android/app/src/main/AndroidManifest.xml:39:9-41
+82            android:windowSoftInputMode="adjustResize" >
+82-->/Users/mac/Desktop/Cov19/android/app/src/main/AndroidManifest.xml:41:9-51
+83            <intent-filter>
+83-->/Users/mac/Desktop/Cov19/android/app/src/main/AndroidManifest.xml:42:9-45:25
+84                <action android:name="android.intent.action.MAIN" />
+84-->/Users/mac/Desktop/Cov19/android/app/src/main/AndroidManifest.xml:43:13-65
+84-->/Users/mac/Desktop/Cov19/android/app/src/main/AndroidManifest.xml:43:21-62
+85
+86                <category android:name="android.intent.category.LAUNCHER" />
+86-->/Users/mac/Desktop/Cov19/android/app/src/main/AndroidManifest.xml:44:13-73
+86-->/Users/mac/Desktop/Cov19/android/app/src/main/AndroidManifest.xml:44:23-70
+87            </intent-filter>
+88        </activity>
+89        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+89-->/Users/mac/Desktop/Cov19/android/app/src/main/AndroidManifest.xml:47:7-84
+89-->/Users/mac/Desktop/Cov19/android/app/src/main/AndroidManifest.xml:47:17-81
+90
+91        <provider
+91-->[:react-native-image-picker] /Users/mac/Desktop/Cov19/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:9-18:20
+92            android:name="com.imagepicker.FileProvider"
+92-->[:react-native-image-picker] /Users/mac/Desktop/Cov19/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-56
+93            android:authorities="com.econostic.alertecovid.provider"
+93-->[:react-native-image-picker] /Users/mac/Desktop/Cov19/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-60
+94            android:exported="false"
+94-->[:react-native-image-picker] /Users/mac/Desktop/Cov19/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-37
+95            android:grantUriPermissions="true" >
+95-->[:react-native-image-picker] /Users/mac/Desktop/Cov19/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-47
+96            <meta-data
+96-->[:react-native-image-picker] /Users/mac/Desktop/Cov19/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-17:58
+97                android:name="android.support.FILE_PROVIDER_PATHS"
+97-->[:react-native-image-picker] /Users/mac/Desktop/Cov19/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:17-67
+98                android:resource="@xml/provider_paths" />
+98-->[:react-native-image-picker] /Users/mac/Desktop/Cov19/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-55
+99        </provider>
+100
+101        <activity android:name="com.facebook.CustomTabMainActivity" />
+101-->[com.facebook.android:facebook-common:5.15.3] /Users/mac/.gradle/caches/transforms-2/files-2.1/f9f107ab6ecf3fd28a98cc852181860e/jetified-facebook-common-5.15.3/AndroidManifest.xml:34:9-71
+101-->[com.facebook.android:facebook-common:5.15.3] /Users/mac/.gradle/caches/transforms-2/files-2.1/f9f107ab6ecf3fd28a98cc852181860e/jetified-facebook-common-5.15.3/AndroidManifest.xml:34:19-68
+102        <activity
+102-->[com.google.android.gms:play-services-auth:16.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/0a688333f4657302dc63a2399b3bc660/jetified-play-services-auth-16.0.1/AndroidManifest.xml:23:9-27:75
+103            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+103-->[com.google.android.gms:play-services-auth:16.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/0a688333f4657302dc63a2399b3bc660/jetified-play-services-auth-16.0.1/AndroidManifest.xml:24:13-93
+104            android:excludeFromRecents="true"
+104-->[com.google.android.gms:play-services-auth:16.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/0a688333f4657302dc63a2399b3bc660/jetified-play-services-auth-16.0.1/AndroidManifest.xml:25:13-46
+105            android:exported="false"
+105-->[com.google.android.gms:play-services-auth:16.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/0a688333f4657302dc63a2399b3bc660/jetified-play-services-auth-16.0.1/AndroidManifest.xml:26:13-37
+106            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+106-->[com.google.android.gms:play-services-auth:16.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/0a688333f4657302dc63a2399b3bc660/jetified-play-services-auth-16.0.1/AndroidManifest.xml:27:13-72
+107        <!--
+108            Service handling Google Sign-In user revocation. For apps that do not integrate with
+109            Google Sign-In, this service will never be started.
+110        -->
+111        <service
+111-->[com.google.android.gms:play-services-auth:16.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/0a688333f4657302dc63a2399b3bc660/jetified-play-services-auth-16.0.1/AndroidManifest.xml:33:9-36:110
+112            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+112-->[com.google.android.gms:play-services-auth:16.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/0a688333f4657302dc63a2399b3bc660/jetified-play-services-auth-16.0.1/AndroidManifest.xml:34:13-89
+113            android:exported="true"
+113-->[com.google.android.gms:play-services-auth:16.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/0a688333f4657302dc63a2399b3bc660/jetified-play-services-auth-16.0.1/AndroidManifest.xml:35:13-36
+114            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+114-->[com.google.android.gms:play-services-auth:16.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/0a688333f4657302dc63a2399b3bc660/jetified-play-services-auth-16.0.1/AndroidManifest.xml:36:13-107
+115
+116        <activity
+116-->[com.google.firebase:firebase-auth:18.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/fb4be924314ef4f4b4e0ef98325fceab/firebase-auth-18.1.0/AndroidManifest.xml:24:9-31:50
+117            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+117-->[com.google.firebase:firebase-auth:18.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/fb4be924314ef4f4b4e0ef98325fceab/firebase-auth-18.1.0/AndroidManifest.xml:25:13-85
+118            android:excludeFromRecents="true"
+118-->[com.google.firebase:firebase-auth:18.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/fb4be924314ef4f4b4e0ef98325fceab/firebase-auth-18.1.0/AndroidManifest.xml:26:13-46
+119            android:exported="true"
+119-->[com.google.firebase:firebase-auth:18.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/fb4be924314ef4f4b4e0ef98325fceab/firebase-auth-18.1.0/AndroidManifest.xml:27:13-36
+120            android:launchMode="singleTask"
+120-->[com.google.firebase:firebase-auth:18.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/fb4be924314ef4f4b4e0ef98325fceab/firebase-auth-18.1.0/AndroidManifest.xml:28:13-44
+121            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+121-->[com.google.firebase:firebase-auth:18.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/fb4be924314ef4f4b4e0ef98325fceab/firebase-auth-18.1.0/AndroidManifest.xml:29:13-102
+122            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+122-->[com.google.firebase:firebase-auth:18.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/fb4be924314ef4f4b4e0ef98325fceab/firebase-auth-18.1.0/AndroidManifest.xml:30:13-72
+123
+124        <service
+124-->[com.google.firebase:firebase-auth:18.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/fb4be924314ef4f4b4e0ef98325fceab/firebase-auth-18.1.0/AndroidManifest.xml:33:9-39:19
+125            android:name="com.google.firebase.components.ComponentDiscoveryService"
+125-->[com.google.firebase:firebase-auth:18.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/fb4be924314ef4f4b4e0ef98325fceab/firebase-auth-18.1.0/AndroidManifest.xml:34:13-84
+126            android:exported="false" >
+126-->[com.google.firebase:firebase-auth:18.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/fb4be924314ef4f4b4e0ef98325fceab/firebase-auth-18.1.0/AndroidManifest.xml:35:13-37
+127            <meta-data
+127-->[com.google.firebase:firebase-auth:18.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/fb4be924314ef4f4b4e0ef98325fceab/firebase-auth-18.1.0/AndroidManifest.xml:36:13-38:85
+128                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+128-->[com.google.firebase:firebase-auth:18.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/fb4be924314ef4f4b4e0ef98325fceab/firebase-auth-18.1.0/AndroidManifest.xml:37:17-109
+129                android:value="com.google.firebase.components.ComponentRegistrar" />
+129-->[com.google.firebase:firebase-auth:18.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/fb4be924314ef4f4b4e0ef98325fceab/firebase-auth-18.1.0/AndroidManifest.xml:38:17-82
+130            <meta-data
+130-->[com.google.firebase:firebase-storage:18.1.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/582e6defd0830d092847dc55d4710c36/firebase-storage-18.1.1/AndroidManifest.xml:33:13-35:85
+131                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+131-->[com.google.firebase:firebase-storage:18.1.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/582e6defd0830d092847dc55d4710c36/firebase-storage-18.1.1/AndroidManifest.xml:34:17-107
+132                android:value="com.google.firebase.components.ComponentRegistrar" />
+132-->[com.google.firebase:firebase-storage:18.1.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/582e6defd0830d092847dc55d4710c36/firebase-storage-18.1.1/AndroidManifest.xml:35:17-82
+133            <meta-data
+133-->[com.google.firebase:firebase-firestore:20.2.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/7d4ec99d81e11f60947bb97b6adc27e5/jetified-firebase-firestore-20.2.0/AndroidManifest.xml:20:13-22:85
+134                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+134-->[com.google.firebase:firebase-firestore:20.2.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/7d4ec99d81e11f60947bb97b6adc27e5/jetified-firebase-firestore-20.2.0/AndroidManifest.xml:21:17-111
+135                android:value="com.google.firebase.components.ComponentRegistrar" />
+135-->[com.google.firebase:firebase-firestore:20.2.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/7d4ec99d81e11f60947bb97b6adc27e5/jetified-firebase-firestore-20.2.0/AndroidManifest.xml:22:17-82
+136            <meta-data
+136-->[com.google.android.gms:play-services-measurement-api:17.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/084f486a4e56d675f848c819bfa9f126/play-services-measurement-api-17.0.1/AndroidManifest.xml:30:13-32:85
+137                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+137-->[com.google.android.gms:play-services-measurement-api:17.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/084f486a4e56d675f848c819bfa9f126/play-services-measurement-api-17.0.1/AndroidManifest.xml:31:17-139
+138                android:value="com.google.firebase.components.ComponentRegistrar" />
+138-->[com.google.android.gms:play-services-measurement-api:17.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/084f486a4e56d675f848c819bfa9f126/play-services-measurement-api-17.0.1/AndroidManifest.xml:32:17-82
+139            <meta-data
+139-->[com.google.firebase:firebase-iid:19.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/221e381b1d26a6e41986d1ac60e62530/firebase-iid-19.0.0/AndroidManifest.xml:32:13-34:85
+140                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+140-->[com.google.firebase:firebase-iid:19.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/221e381b1d26a6e41986d1ac60e62530/firebase-iid-19.0.0/AndroidManifest.xml:33:17-96
+141                android:value="com.google.firebase.components.ComponentRegistrar" />
+141-->[com.google.firebase:firebase-iid:19.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/221e381b1d26a6e41986d1ac60e62530/firebase-iid-19.0.0/AndroidManifest.xml:34:17-82
+142        </service>
+143
+144        <receiver
+144-->[com.google.firebase:firebase-iid:19.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/221e381b1d26a6e41986d1ac60e62530/firebase-iid-19.0.0/AndroidManifest.xml:37:9-44:20
+145            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+145-->[com.google.firebase:firebase-iid:19.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/221e381b1d26a6e41986d1ac60e62530/firebase-iid-19.0.0/AndroidManifest.xml:38:13-78
+146            android:exported="true"
+146-->[com.google.firebase:firebase-iid:19.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/221e381b1d26a6e41986d1ac60e62530/firebase-iid-19.0.0/AndroidManifest.xml:39:13-36
+147            android:permission="com.google.android.c2dm.permission.SEND" >
+147-->[com.google.firebase:firebase-iid:19.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/221e381b1d26a6e41986d1ac60e62530/firebase-iid-19.0.0/AndroidManifest.xml:40:13-73
+148            <intent-filter>
+148-->[com.google.firebase:firebase-iid:19.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/221e381b1d26a6e41986d1ac60e62530/firebase-iid-19.0.0/AndroidManifest.xml:41:13-43:29
+149                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+149-->[com.google.firebase:firebase-iid:19.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/221e381b1d26a6e41986d1ac60e62530/firebase-iid-19.0.0/AndroidManifest.xml:42:17-81
+149-->[com.google.firebase:firebase-iid:19.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/221e381b1d26a6e41986d1ac60e62530/firebase-iid-19.0.0/AndroidManifest.xml:42:25-78
+150            </intent-filter>
+151        </receiver>
+152
+153        <activity
+153-->[com.google.android.gms:play-services-base:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/b0e0fb10fbe398aa49016d4ff853c74e/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+154            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+154-->[com.google.android.gms:play-services-base:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/b0e0fb10fbe398aa49016d4ff853c74e/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+155            android:exported="false"
+155-->[com.google.android.gms:play-services-base:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/b0e0fb10fbe398aa49016d4ff853c74e/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+156            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+156-->[com.google.android.gms:play-services-base:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/b0e0fb10fbe398aa49016d4ff853c74e/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+157
+158        <meta-data
+158-->[com.google.maps.android:android-maps-utils:0.5] /Users/mac/.gradle/caches/transforms-2/files-2.1/c668ad9d19476ff20512513fd19a7f3f/jetified-android-maps-utils-0.5/AndroidManifest.xml:8:9-10:69
+159            android:name="com.google.android.gms.version"
+159-->[com.google.maps.android:android-maps-utils:0.5] /Users/mac/.gradle/caches/transforms-2/files-2.1/c668ad9d19476ff20512513fd19a7f3f/jetified-android-maps-utils-0.5/AndroidManifest.xml:9:13-58
+160            android:value="@integer/google_play_services_version" />
+160-->[com.google.maps.android:android-maps-utils:0.5] /Users/mac/.gradle/caches/transforms-2/files-2.1/c668ad9d19476ff20512513fd19a7f3f/jetified-android-maps-utils-0.5/AndroidManifest.xml:10:13-66
+161
+162        <provider
+162-->[com.google.firebase:firebase-common:18.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/1404bfd51fb49520e6fc4577f33d785b/firebase-common-18.0.0/AndroidManifest.xml:12:9-16:39
+163            android:name="com.google.firebase.provider.FirebaseInitProvider"
+163-->[com.google.firebase:firebase-common:18.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/1404bfd51fb49520e6fc4577f33d785b/firebase-common-18.0.0/AndroidManifest.xml:13:13-77
+164            android:authorities="com.econostic.alertecovid.firebaseinitprovider"
+164-->[com.google.firebase:firebase-common:18.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/1404bfd51fb49520e6fc4577f33d785b/firebase-common-18.0.0/AndroidManifest.xml:14:13-72
+165            android:exported="false"
+165-->[com.google.firebase:firebase-common:18.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/1404bfd51fb49520e6fc4577f33d785b/firebase-common-18.0.0/AndroidManifest.xml:15:13-37
+166            android:initOrder="100" />
+166-->[com.google.firebase:firebase-common:18.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/1404bfd51fb49520e6fc4577f33d785b/firebase-common-18.0.0/AndroidManifest.xml:16:13-36
+167
+168        <receiver
+168-->[com.google.android.gms:play-services-measurement:17.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/7b9a2819f1b515acf57bd28cb6fde76e/play-services-measurement-17.0.1/AndroidManifest.xml:29:9-33:20
+169            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+169-->[com.google.android.gms:play-services-measurement:17.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/7b9a2819f1b515acf57bd28cb6fde76e/play-services-measurement-17.0.1/AndroidManifest.xml:30:13-85
+170            android:enabled="true"
+170-->[com.google.android.gms:play-services-measurement:17.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/7b9a2819f1b515acf57bd28cb6fde76e/play-services-measurement-17.0.1/AndroidManifest.xml:31:13-35
+171            android:exported="false" >
+171-->[com.google.android.gms:play-services-measurement:17.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/7b9a2819f1b515acf57bd28cb6fde76e/play-services-measurement-17.0.1/AndroidManifest.xml:32:13-37
+172        </receiver>
+173        <receiver
+173-->[com.google.android.gms:play-services-measurement:17.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/7b9a2819f1b515acf57bd28cb6fde76e/play-services-measurement-17.0.1/AndroidManifest.xml:34:9-42:20
+174            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+174-->[com.google.android.gms:play-services-measurement:17.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/7b9a2819f1b515acf57bd28cb6fde76e/play-services-measurement-17.0.1/AndroidManifest.xml:35:13-100
+175            android:enabled="true"
+175-->[com.google.android.gms:play-services-measurement:17.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/7b9a2819f1b515acf57bd28cb6fde76e/play-services-measurement-17.0.1/AndroidManifest.xml:36:13-35
+176            android:exported="true"
+176-->[com.google.android.gms:play-services-measurement:17.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/7b9a2819f1b515acf57bd28cb6fde76e/play-services-measurement-17.0.1/AndroidManifest.xml:37:13-36
+177            android:permission="android.permission.INSTALL_PACKAGES" >
+177-->[com.google.android.gms:play-services-measurement:17.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/7b9a2819f1b515acf57bd28cb6fde76e/play-services-measurement-17.0.1/AndroidManifest.xml:38:13-69
+178            <intent-filter>
+178-->[com.google.android.gms:play-services-measurement:17.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/7b9a2819f1b515acf57bd28cb6fde76e/play-services-measurement-17.0.1/AndroidManifest.xml:39:13-41:29
+179                <action android:name="com.android.vending.INSTALL_REFERRER" />
+179-->[com.google.android.gms:play-services-measurement:17.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/7b9a2819f1b515acf57bd28cb6fde76e/play-services-measurement-17.0.1/AndroidManifest.xml:40:17-79
+179-->[com.google.android.gms:play-services-measurement:17.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/7b9a2819f1b515acf57bd28cb6fde76e/play-services-measurement-17.0.1/AndroidManifest.xml:40:25-76
+180            </intent-filter>
+181        </receiver>
+182
+183        <service
+183-->[com.google.android.gms:play-services-measurement:17.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/7b9a2819f1b515acf57bd28cb6fde76e/play-services-measurement-17.0.1/AndroidManifest.xml:44:9-47:40
+184            android:name="com.google.android.gms.measurement.AppMeasurementService"
+184-->[com.google.android.gms:play-services-measurement:17.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/7b9a2819f1b515acf57bd28cb6fde76e/play-services-measurement-17.0.1/AndroidManifest.xml:45:13-84
+185            android:enabled="true"
+185-->[com.google.android.gms:play-services-measurement:17.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/7b9a2819f1b515acf57bd28cb6fde76e/play-services-measurement-17.0.1/AndroidManifest.xml:46:13-35
+186            android:exported="false" />
+186-->[com.google.android.gms:play-services-measurement:17.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/7b9a2819f1b515acf57bd28cb6fde76e/play-services-measurement-17.0.1/AndroidManifest.xml:47:13-37
+187        <service
+187-->[com.google.android.gms:play-services-measurement:17.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/7b9a2819f1b515acf57bd28cb6fde76e/play-services-measurement-17.0.1/AndroidManifest.xml:48:9-52:72
+188            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+188-->[com.google.android.gms:play-services-measurement:17.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/7b9a2819f1b515acf57bd28cb6fde76e/play-services-measurement-17.0.1/AndroidManifest.xml:49:13-87
+189            android:enabled="true"
+189-->[com.google.android.gms:play-services-measurement:17.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/7b9a2819f1b515acf57bd28cb6fde76e/play-services-measurement-17.0.1/AndroidManifest.xml:50:13-35
+190            android:exported="false"
+190-->[com.google.android.gms:play-services-measurement:17.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/7b9a2819f1b515acf57bd28cb6fde76e/play-services-measurement-17.0.1/AndroidManifest.xml:51:13-37
+191            android:permission="android.permission.BIND_JOB_SERVICE" />
+191-->[com.google.android.gms:play-services-measurement:17.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/7b9a2819f1b515acf57bd28cb6fde76e/play-services-measurement-17.0.1/AndroidManifest.xml:52:13-69
+192        <!--
+193         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+194         with the application context. This config is merged in with the host app's manifest,
+195         but there can only be one provider with the same authority activated at any given
+196         point; so if the end user has two or more different apps that use Facebook SDK, only the
+197         first one will be able to use the provider. To work around this problem, we use the
+198         following placeholder in the authority to identify each host application as if it was
+199         a completely different provider.
+200        -->
+201        <provider
+201-->[com.facebook.android:facebook-core:5.15.3] /Users/mac/.gradle/caches/transforms-2/files-2.1/77b1c7ed5ac1f99add8af274ad98eefa/jetified-facebook-core-5.15.3/AndroidManifest.xml:39:9-42:40
+202            android:name="com.facebook.internal.FacebookInitProvider"
+202-->[com.facebook.android:facebook-core:5.15.3] /Users/mac/.gradle/caches/transforms-2/files-2.1/77b1c7ed5ac1f99add8af274ad98eefa/jetified-facebook-core-5.15.3/AndroidManifest.xml:40:13-70
+203            android:authorities="com.econostic.alertecovid.FacebookInitProvider"
+203-->[com.facebook.android:facebook-core:5.15.3] /Users/mac/.gradle/caches/transforms-2/files-2.1/77b1c7ed5ac1f99add8af274ad98eefa/jetified-facebook-core-5.15.3/AndroidManifest.xml:41:13-72
+204            android:exported="false" />
+204-->[com.facebook.android:facebook-core:5.15.3] /Users/mac/.gradle/caches/transforms-2/files-2.1/77b1c7ed5ac1f99add8af274ad98eefa/jetified-facebook-core-5.15.3/AndroidManifest.xml:42:13-37
+205
+206        <receiver
+206-->[com.facebook.android:facebook-core:5.15.3] /Users/mac/.gradle/caches/transforms-2/files-2.1/77b1c7ed5ac1f99add8af274ad98eefa/jetified-facebook-core-5.15.3/AndroidManifest.xml:44:9-50:20
+207            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+207-->[com.facebook.android:facebook-core:5.15.3] /Users/mac/.gradle/caches/transforms-2/files-2.1/77b1c7ed5ac1f99add8af274ad98eefa/jetified-facebook-core-5.15.3/AndroidManifest.xml:45:13-86
+208            android:exported="false" >
+208-->[com.facebook.android:facebook-core:5.15.3] /Users/mac/.gradle/caches/transforms-2/files-2.1/77b1c7ed5ac1f99add8af274ad98eefa/jetified-facebook-core-5.15.3/AndroidManifest.xml:46:13-37
+209            <intent-filter>
+209-->[com.facebook.android:facebook-core:5.15.3] /Users/mac/.gradle/caches/transforms-2/files-2.1/77b1c7ed5ac1f99add8af274ad98eefa/jetified-facebook-core-5.15.3/AndroidManifest.xml:47:13-49:29
+210                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+210-->[com.facebook.android:facebook-core:5.15.3] /Users/mac/.gradle/caches/transforms-2/files-2.1/77b1c7ed5ac1f99add8af274ad98eefa/jetified-facebook-core-5.15.3/AndroidManifest.xml:48:17-95
+210-->[com.facebook.android:facebook-core:5.15.3] /Users/mac/.gradle/caches/transforms-2/files-2.1/77b1c7ed5ac1f99add8af274ad98eefa/jetified-facebook-core-5.15.3/AndroidManifest.xml:48:25-92
+211            </intent-filter>
+212        </receiver>
+213    </application>
+214
+215</manifest>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "93667482372",
+    "firebase_url": "https://covid19-e4781.firebaseio.com",
+    "project_id": "covid19-e4781",
+    "storage_bucket": "covid19-e4781.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:93667482372:android:58942c1edfd42d45e88e51",
+        "android_client_info": {
+          "package_name": "com.econostic.alertecovid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "93667482372-tik060rhalhfkpidee8r0hpn7ejg3n2i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.econostic.alertecovid",
+            "certificate_hash": "d445ad1b7748908d0de27d927a94af23ace08cfb"
+          }
+        },
+        {
+          "client_id": "93667482372-6l32bpnbnge3vro5dvhgrf2flddbhkc4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkA8amhZuR4ZJFEKSp7oHIYK-bV3GWf9Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "93667482372-6l32bpnbnge3vro5dvhgrf2flddbhkc4.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "93667482372-l1k306qtcl7sb40ehkro2es8p4ah5v19.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.econostic.alertecovid"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

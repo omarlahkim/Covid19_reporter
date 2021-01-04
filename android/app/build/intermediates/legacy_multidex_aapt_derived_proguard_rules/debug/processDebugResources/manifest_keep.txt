@@ -1,0 +1,4 @@
+# Referenced at /Users/mac/Desktop/Cov19/android/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml:28
+-keep class androidx.core.app.CoreComponentFactory { <init>(); }
+# Referenced at /Users/mac/Desktop/Cov19/android/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml:28
+-keep class com.econostic.alertecovid.MainApplication { <init>(); }

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AlerteCovid</string>
+    <string name="facebook_app_id">273615763635672</string>
+    <string name="fb_login_protocol_scheme">fb273615763635672</string>
+</resources>
