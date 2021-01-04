@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>CC9221FB-36DE-4D58-A1E5-17B2229BECEE</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>CC9221FB-36DE-4D58-A1E5-17B2229BECEE.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AlerteCovid project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AlerteCovid</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building workspace AlerteCovid with scheme AlerteCovid and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>606774918.37025905</real>
+			<key>timeStoppedRecording</key>
+			<real>606774924.40946305</real>
+			<key>title</key>
+			<string>Building workspace AlerteCovid with scheme AlerteCovid and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>CC9221FB-36DE-4D58-A1E5-17B2229BECEE</string>
+		</dict>
+		<key>FD22C44D-EA46-48B6-AF39-0459CDFCA9A9</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>FD22C44D-EA46-48B6-AF39-0459CDFCA9A9.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AlerteCovid project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AlerteCovid</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building workspace AlerteCovid with scheme AlerteCovid and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>606774711.09050596</real>
+			<key>timeStoppedRecording</key>
+			<real>606774716.98077798</real>
+			<key>title</key>
+			<string>Building workspace AlerteCovid with scheme AlerteCovid and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>FD22C44D-EA46-48B6-AF39-0459CDFCA9A9</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

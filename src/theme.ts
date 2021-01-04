@@ -1,0 +1,14 @@
+import {DefaultTheme} from 'react-native-paper';
+
+export default {
+  ...DefaultTheme,
+  dark: false,
+  roundness: 3,
+  colors: {
+    ...DefaultTheme.colors,
+    primary: '#136207',
+    secondary: '#000000',
+    accent: '#fff',
+    background: '#fff',
+  },
+};

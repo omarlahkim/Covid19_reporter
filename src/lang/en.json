@@ -1,0 +1,67 @@
+{
+
+    "emailHolder":"Email Address",
+    "passwordHolder":"Password",
+    "signinButton":"SIGN IN",
+    "forgotButton":"FORGOT PASSWORD?",
+    "createAccountButton":"CREATE AN ACCOUNT",
+    "signinthird":"SIGN IN WITH",
+    "linkthird":"Link",
+    "unlinkinthird":"Unlink",
+    "signinGoogle":"SIGN IN WITH GOOGLE",
+    "signinPhone":"SIGN IN WITH PHONE NUMBER",
+    "sendReportButton":"Send Report",
+    "categoryTitle":"Category:",
+    "categoryDescription":"Please choose the category",
+    "numberTitle":"Number:",
+    "numberDescription":"Please choose the number",
+    "commentTitle":"Comment:",
+    "commentDescription":"Please put a comment (optional)",
+    "commentHolder":"Comment",
+    "saveButton":"SAVE",
+    "passwordUpdateTitle":"Password Update:",
+    "passwordUpdateDescription":"Update your account password. For security purposes, please enter your current account password.",
+    "passwordUpdateCurrentHolder":"Current Password",
+    "passwordUpdateNewHolder":"New Password",
+    "passwordConfirmHolder":"Confirm New Password",
+    "updateButton":"UPDATE",
+    "signoutButton":"SIGN OUT",
+    "createAccountTitle":"Create Account",
+    "creatingAccountTitle":"Creating Account",
+    "createAccountDescription":"Create an account with your email and password. Once create you will be automatically logged in to your profile:",
+    "forgotPasswordTitle":"Forgot Password",
+    "forgotPasswordDescription":"Enter your email address below to send a password reset email:",
+    "sendPasswordResetButton":"SEND PASSWORD RESET",
+    "sendingPasswordResetButton":"SEND PASSWORD RESET",
+    "Rassemblement":"Regroupement",
+    "Inflation":"Inflation",
+    "Agression":"Agression",
+    "option1":"2 to 10",
+    "option2":"10 to 30",
+    "option3":"30 or more",
+    "reports":"Report",
+    "statistics":"Statistics",
+    "advices":"Advices",
+    "news":"News",
+    "profile":"Profile",
+    "settings":"Settings",
+    "signingin":"Signing In",
+    "sentReport":"Your report has been submitted successfully!",
+    "backButton":"Cancel",
+    "selectImage":"Select the image for the report",
+    "takePhotoButtonTitle":"Take Photo...",
+    "chooseFromLibraryButtonTitle":"Choose from Library...",
+    "cancelButtonTitle":"Cancel"
+
+
+
+
+    
+
+
+
+
+
+
+
+}
